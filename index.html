@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutas de Domiciliarios</title>
+</head>
+<body>
+    <h1>Registrar Ruta</h1>
+    
+    <label for="ubicacion_establecimiento">Ubicación Establecimiento:</label>
+    <input type="text" id="ubicacion_establecimiento" placeholder="Ej: [4.60971, -74.08175]">
+    <br><br>
+
+    <label for="ubicacion_cliente">Ubicación Cliente:</label>
+    <input type="text" id="ubicacion_cliente" placeholder="Ej: [4.60971, -74.08175]">
+    <br><br>
+
+    <label for="domiciliarios">Domiciliarios (id y ubicación):</label>
+    <textarea id="domiciliarios" placeholder='Ej: [{"id":1, "ubicacion":[4.60971, -74.08175]}, {"id":2, "ubicacion":[4.61577, -74.07021]}, {"id":3, "ubicacion":[4.6000, -74.0833]}]'></textarea>
+    <br><br>
+
+    <button id="btnRegistrarRuta">Registrar Ruta</button>
+    <br><br>
+
+    <h1>Rutas Registradas</h1>
+    <button id="btnObtenerRutas">Obtener Rutas</button>
+    <br><br>
+
+    <pre id="resultados"></pre>
+
+    <script src="script.js"></script>
+</body>
+</html>
